@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.js"></script>
+    <script src="https://kit.fontawesome.com/cb49635823.js" crossorigin="anonymous"></script>
+    <title>Online Code Editor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <label><i class="fa-solid fa-code"></i>HTML</label>
+            <div id="html-code-editor"></div>
+        </div>
+
+        <div class="editor">
+            <label><i class="fa-brands fa-css3"></i>CSS</label>
+            <div id="css-code-editor"></div>
+        </div>
+
+        <div class="editor">
+            <label><i class="fa-brands fa-js"></i>JavaScript</label>
+            <div id="js-code-editor"></div>
+        </div>
+    </div>
+
+    <div class="output">
+        <label><i class="fa-solid fa-play fa-2xs"></i>Output</label>
+        <iframe id="output"></iframe>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
